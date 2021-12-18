@@ -28,24 +28,21 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  &:hover .client-compani-icon,
+  &:focus .client-compani-icon {
+    fill: var(--accent-color);
+  }
 }
-
 .client-compani + .client-compani {
   margin-left: 30px;
 }
-
 .client-compani-icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-compani-contact:hover .client-compani-icon,
-.client-compani-contact:focus .client-compani-icon {
-  fill: var(--accent-color);
-}
-
-.client-compani-contact:hover,
-.client-compani-contact:focus {
-  border-color: var(--accent-color);
 }
