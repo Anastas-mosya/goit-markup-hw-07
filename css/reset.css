@@ -25,14 +25,14 @@ button {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-.link {
+a {
   text-decoration: none;
 }
 /*# sourceMappingURL=reset.css.map */

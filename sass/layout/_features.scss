@@ -1,8 +1,8 @@
-.features-list {
+.features {
   display: flex;
 }
 
-.features-icons-svg {
+.features__icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,15 +12,15 @@
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.features-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
-.features-icons {
+.features__icon {
   width: 70px;
   height: 70px;
 }
 
-.features-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

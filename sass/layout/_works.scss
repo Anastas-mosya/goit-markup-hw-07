@@ -1,4 +1,8 @@
-.work-title {
+.section--no-padding-top {
+  padding-top: 0;
+}
+
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -7,10 +11,10 @@
   color: var(--second-title-color);
   margin-bottom: 50px;
 }
-.work-list {
+.work {
   display: flex;
 }
-.work-item {
+.work__item {
   align-items: center;
   margin-right: 30px;
   position: relative;
@@ -18,7 +22,7 @@
     margin-right: 0;
   }
 }
-.work-text {
+.work__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;

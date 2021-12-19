@@ -1,4 +1,4 @@
-.client-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -7,18 +7,18 @@
   color: var(--main-title-color);
   margin-bottom: 50px;
 }
-.client-list {
+.client {
   display: flex;
   justify-content: center;
 }
 
-.client-compani {
+.client__item {
   width: 170px;
   height: 92px;
   display: block;
   border-radius: 4px;
 }
-.client-compani-contact {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,15 +32,15 @@
   &:focus {
     border-color: var(--accent-color);
   }
-  &:hover .client-compani-icon,
-  &:focus .client-compani-icon {
+  &:hover .client__icon,
+  &:focus .client__icon {
     fill: var(--accent-color);
   }
 }
-.client-compani + .client-compani {
+.client__item + .client__item {
   margin-left: 30px;
 }
-.client-compani-icon {
+.client__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
