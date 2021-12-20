@@ -56,21 +56,21 @@
   margin-bottom: 20px;
 }
 
-.footer-form {
+.form {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0;
 }
-.join-title {
+.container-second__title {
   margin-bottom: 20px;
 }
-.footer-form {
+.form {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
-.footer-form-input {
+.form__input {
   width: 358px;
   height: 50px;
   background-color: transparent;
@@ -96,11 +96,11 @@
     padding-left: 16px;
   }
 }
-.footer-btn {
+.footer__btn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer-btn-icon {
+.btn__icon {
   margin-left: 10px;
 }
