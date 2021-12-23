@@ -3,11 +3,12 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter > .filter__item:not(:last-child) {
-  margin-right: 8px;
-}
+
 .filter__item {
   display: block;
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .filter__btn {

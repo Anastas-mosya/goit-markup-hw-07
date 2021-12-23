@@ -25,9 +25,7 @@
 .logo__adress {
   margin-top: 20px;
 }
-.coordinates__item:not(:last-child) {
-  margin-bottom: 9px;
-}
+
 .coordinates__item {
   font-family: Roboto;
   font-style: normal;
@@ -35,6 +33,9 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 .coordinates__link {
   color: var(--second-text-color);
